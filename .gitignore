@@ -1,0 +1,28 @@
+# secrets — never commit
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+token.json
+
+# generated output
+reports/
+*.csv
+*.pdf
+*.build.html
+.cache/
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# os / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

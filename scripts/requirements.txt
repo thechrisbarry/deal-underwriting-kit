@@ -1,0 +1,2 @@
+# No third-party dependencies. Standard library only, Python 3.9+.
+# This file exists so people stop looking for one.
